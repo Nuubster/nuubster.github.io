@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Tahoma;
+    src: url(tahoma.ttf);
+}
+
+body {
+    background-image: url("BlissBeauty4k.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    image-rendering: auto;
+    background-attachment: fixed;
+}
+
+.Welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 400px;
+    background-color: #ece9d8;
+    font-family: 'Tahoma', sans-serif;
+
+    border: 3px solid #0054e3; 
+    border-top: none; 
+    border-radius: 5px 5px 0 0;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    padding: 0;
+    overflow: hidden;
+}
+
+.TitleBar {
+  background: linear-gradient(to right, #0058e6, #02209e);
+  color: white;
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 13px;
+  text-shadow: 1px 1px 1px #000;
+  height: 30px;
+  border-radius: 2px 2px 0 0;
+}
+
+.TaskbarButton {
+  width: 21px;
+  height: 21px;
+  border: none;
+  background-image: url('WinXp/Frame/UI\ Theme.png');
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 0;
+}
+
+.XP-Min {
+    background-position: -375px -236px;
+}
+
+.XP-Window {
+    background-position: -399px -236px;
+}
+
+.XP-Close {
+    background-position: -447px -236px;
+}
+
+
+.XP-Min:hover {
+    background-position: -375px -257px;
+}
+
+.XP-Window:hover {
+    background-position: -399px -257px;
+}
+
+.XP-Close:hover {
+    background-position: -447px -257px;
+}
+
+
+.XP-Min:active {
+    background-position: -375px -278px;
+}
+
+.XP-Window:active {
+    background-position: -399px -278px;
+}
+
+.XP-Close:active {
+    background-position: -447px -278px;
+}
+
+.TextField {
+    padding: 15px;
+    color: #000;
+    font-size: 14px;
+}
+
+.SelectButton {
+    margin-bottom: 10px;
+
+    font-family: 'Tahoma', sans-serif;
+    font-size: 11px;
+    color: #000;
+    min-width: 75px;
+    height: 23px;
+    padding: 0 8px;
+    cursor: pointer;
+
+    background: linear-gradient(to bottom, #ffffff 0%, #f4f3ee 40%, #e6e4d8 100%);
+    border: 1px solid #003c74; 
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 0px #ffffff;
+}
+
+.SelectButton:hover {
+    background: linear-gradient(to bottom, #fff8dd 0%, #ffeeb5 40%, #f5d47f 100%);
+    border-color: #e5a325;
+}
+
+.SelectButton:active {
+    background: linear-gradient(to bottom, #e2dfda 0%, #dcd9d2 100%);
+    border-color: #003c74;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.YES {
+    display: flex;
+    justify-content: flex-end;
+    gap: 6px;
+    padding: 11px;
+    background: #ece9d8;
+}
