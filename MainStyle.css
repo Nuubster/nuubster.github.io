@@ -1,0 +1,49 @@
+.TempTxt {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    background-image: url(BlissBeauty4k.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    image-rendering: auto;
+    background-attachment: fixed;
+}
+
+.Desktop {
+    width: 48px;
+    height: 48px;
+    background-image: url(WinXp/Icons/WinIcons_48.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 2.5rem;
+    background-size: 960px 960px;
+    image-rendering: pixelated; 
+    image-rendering: crisp-edges;
+}
+
+.XP-Home {
+    background-position: -48px -143px;
+}
+
+.XP-Blog {
+    background-position: -49px -97px;
+}
+
+.XP-Music {
+    background-position: -336px -816px;
+}
+
+.XP-Anime {
+    background-position: -432px -865px;
+}
+
+.XP-Guestbook {
+    background-position: -672px -672px;
+}
