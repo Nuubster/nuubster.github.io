@@ -1,3 +1,8 @@
+@font-face {
+    font-family: retro;
+    src: url(RETROTECH.ttf);
+}
+
 .TempTxt {
     font-size: xx-large;
     display: flex;
@@ -7,12 +12,27 @@
 
 
 body {
+    display: flex;
+    flex-direction: row;
     background-image: url(BlissBeauty4k.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     image-rendering: auto;
     background-attachment: fixed;
+}
+
+p {
+    margin: 4px 0 0 0; 
+    width: 100%;
+    font-size: 11px;  
+    color: white; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); 
+    word-wrap: break-word;
+}
+
+main {
+    flex-grow: 1;
 }
 
 .Desktop {
@@ -26,6 +46,16 @@ body {
     background-size: 960px 960px;
     image-rendering: pixelated; 
     image-rendering: crisp-edges;
+    margin-left: 0.5rem;
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80px;
+    text-align: center;
 }
 
 .XP-Home {
@@ -46,4 +76,97 @@ body {
 
 .XP-Guestbook {
     background-position: -672px -672px;
+}
+
+.Window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 400px;
+    background-color: #ece9d8;
+    font-family: 'Tahoma', sans-serif;
+
+    border: 3px solid #0054e3; 
+    border-top: none; 
+    border-radius: 5px 5px 0 0;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    padding: 0;
+    overflow: hidden;
+}
+
+.TitleBar {
+  background: linear-gradient(to right, #0058e6, #02209e);
+  color: white;
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 13px;
+  text-shadow: 1px 1px 1px #000;
+  height: 30px;
+  border-radius: 2px 2px 0 0;
+}
+
+.TaskbarButton {
+  width: 21px;
+  height: 21px;
+  border: none;
+  background-image: url('WinXp/Frame/UI\ Theme.png');
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 0;
+}
+
+.TextField {
+    padding: 15px;
+    color: #000;
+    font-size: 14px;
+    font-family: retro;
+}
+
+.TextField > p {
+    color: #1d1c1c;
+    font-size: 3rem;
+}
+
+.XP-Min {
+    background-position: -375px -236px;
+}
+
+.XP-Window {
+    background-position: -399px -236px;
+}
+
+.XP-Close {
+    background-position: -447px -236px;
+}
+
+
+.XP-Min:hover {
+    background-position: -375px -257px;
+}
+
+.XP-Window:hover {
+    background-position: -399px -257px;
+}
+
+.XP-Close:hover {
+    background-position: -447px -257px;
+}
+
+
+.XP-Min:active {
+    background-position: -375px -278px;
+}
+
+.XP-Window:active {
+    background-position: -399px -278px;
+}
+
+.XP-Close:active {
+    background-position: -447px -278px;
 }
