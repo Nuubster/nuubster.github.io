@@ -6,8 +6,9 @@
 .TempTxt {
     font-size: xx-large;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
 }
 
 
@@ -79,12 +80,9 @@ main {
 }
 
 .Window {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
-    width: 400px;
+
+    width: 500px;
     background-color: #ece9d8;
     font-family: 'Tahoma', sans-serif;
 
@@ -121,14 +119,22 @@ main {
   padding: 0;
 }
 
-.TextField {
+.TextField > p {
+    font-size: medium;
+    font-family: retro;
+    color: #000000;
+    text-shadow: none;
+    margin: 10px;
+}
+
+.TitleTextField {
     padding: 15px;
     color: #000;
     font-size: 14px;
     font-family: retro;
 }
 
-.TextField > p {
+.TitleTextField > p {
     color: #1d1c1c;
     font-size: 3rem;
 }
