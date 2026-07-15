@@ -118,6 +118,10 @@ main {
   padding: 0;
 }
 
+.TextField {
+    margin-right: 1rem;
+}
+
 .TextField > p {
     font-size: medium;
     font-family: retro;
@@ -174,4 +178,37 @@ main {
 
 .XP-Close:active {
     background-position: -447px -278px;
+}
+
+.AlbumImage {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0.5rem auto 0 auto;
+    background-size: contain;     
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+.Mez { background-image: url(WinXp/Covers/Mezmerize.png); }
+
+.Hyp { background-image: url(WinXp/Covers/Hypnotize.jpg); }
+
+.Tox { background-image: url(WinXp/Covers/Toxicity.jpg); }
+
+.Sta { background-image: url(WinXp/Covers/Stealit.jpeg); }
+
+.Sys { background-image: url(WinXp/Covers/SelfTitled.jpg);}
+
+.Album {
+    width: 270px;
+}
+
+.AlbumContainer {
+    display: flex;         
+    flex-direction: row;   
+    gap: 20px;             
+    align-items: flex-start; 
+    padding: 20px;         
+    flex-wrap: wrap;
 }
