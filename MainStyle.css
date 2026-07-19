@@ -190,21 +190,49 @@ main {
     background-repeat: no-repeat; 
     background-position: center;
 }
-.Mez { background-image: url(WinXp/Covers/Mezmerize.png); }
 
-.Hyp { background-image: url(WinXp/Covers/Hypnotize.jpg); }
+.Mez { background-image: url(WinXp/Covers/Music/System/Mezmerize.png); }
+.Hyp { background-image: url(WinXp/Covers/Music/System/Hypnotize.jpg); }
+.Tox { background-image: url(WinXp/Covers/Music/System/Toxicity.jpg); }
+.Sta { background-image: url(WinXp/Covers/Music/System/Stealit.jpeg); }
+.Sys { background-image: url(WinXp/Covers/Music/System/SelfTitled.jpg);}
 
-.Tox { background-image: url(WinXp/Covers/Toxicity.jpg); }
-
-.Sta { background-image: url(WinXp/Covers/Stealit.jpeg); }
-
-.Sys { background-image: url(WinXp/Covers/SelfTitled.jpg);}
+.Coe { background-image: url(WinXp/Covers/Music/Ax7/CityOfEvil.jpg); }
+.Htk { background-image: url(WinXp/Covers/Music/Ax7/HailToTheTwink.jpg); }
+.Ax7 { background-image: url(WinXp/Covers/Music/Ax7/SelfTitled.jpg); }
 
 .Album {
     width: 270px;
 }
 
 .AlbumContainer {
+    display: flex;         
+    flex-direction: row;   
+    gap: 20px;             
+    align-items: flex-start; 
+    padding: 20px;         
+    flex-wrap: wrap;
+}
+
+.AnimeImage {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0.5rem auto 0 auto;
+    background-size: contain;     
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.JJBA { background-image: url(WinXp/Covers/Anime/Part3.jpg);}
+.BTR { background-image: url(WinXp/Covers/Anime/BTR.jpg);}
+
+.Anime {
+    width: 270px;
+}
+
+.AnimeContainer {
     display: flex;         
     flex-direction: row;   
     gap: 20px;             
